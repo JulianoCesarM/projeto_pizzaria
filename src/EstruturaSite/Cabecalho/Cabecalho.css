@@ -1,0 +1,30 @@
+#cabecalho {
+	background-color:rgba(17, 17, 148, 0.726);
+	height: 80px;
+	padding:5px;
+	
+}
+#conteudo-cab{
+	margin: 0px 200px;
+}
+#linktopo
+{
+	font-size: 45px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo{
+	float: left;
+}
+
+#pesquisa{
+	float: left;
+	margin-top: 30px;
+	margin-left: 500px;
+}
+#lo-se{
+	float: right;
+	margin-top: 30px;
+}

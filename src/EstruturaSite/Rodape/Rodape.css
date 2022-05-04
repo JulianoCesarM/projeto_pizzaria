@@ -1,0 +1,29 @@
+#rodape {
+	background-color:rgba(224, 224, 224, 0.726);
+	height: 500px;
+	padding: 5px;
+}
+#rodape-conteudo{
+	margin: 0px 300px;
+	padding: 5px;
+	
+	
+}
+#endereco{
+	float: left;
+	text-align:left;
+	padding: 5px;
+	border-right: 2px solid rgb(0, 0, 0);
+}
+#RSocial{
+	color: white;
+	float: right;
+	text-align:left;
+	padding: 5px;
+}
+
+#copy{
+	padding: 10px;
+	text-align:center;
+	background-color:rgba(224, 224, 224, 0.726);
+}
