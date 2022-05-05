@@ -1,4 +1,9 @@
-#conteudo{
-    margin: 500px;
-    text-align: center;
+#conteudo {
+	width: 100%;
+	float: left;
+	padding: 1em;
+	line-height: 1.5em;
+	background-color: white;
+	text-align: justify;
+	border: 0px solid red;
 }

@@ -1,10 +1,10 @@
 import './Conteudo.css'
-function Conteudo()
+function Conteudo(prop)
 {
     return(
         <div id="conteudo">
-            <p>Conteudo</p>
-            
+            <h2>{prop.titulo}dg</h2>
+            {prop.children}
         </div>
     );
 }
