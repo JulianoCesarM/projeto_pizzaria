@@ -38,6 +38,6 @@ let prod_pizza= [
 ]
 
 
-export function getPizza(codigo){
+export function GetPizza(codigo){
     return prod_pizza.find((pizza) => prod_pizza.codigo === codigo);
 }
