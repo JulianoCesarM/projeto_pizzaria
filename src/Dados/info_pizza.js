@@ -35,9 +35,9 @@ let prod_pizza= [
         imagem_pizza:"",
         preco:""
     },
-]
+];
 
 
 export function GetPizza(codigo){
-    return prod_pizza.find((pizza) => prod_pizza.codigo === codigo);
+    return prod_pizza.find((pizza) => pizza.codigo === codigo);
 }

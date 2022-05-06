@@ -1,24 +1,17 @@
+import { GetPizza } from '../Dados/info_pizza';
+import Produto from './Produto';
 import './ProdutosEmPromocao.css'
 
-export function ProdutosEmPromocao(){
-    return (
+function ProdutosEmPromocao(prop){
+    let produtos = GetPizza(+prop.idcategoria)
+    return(
         <>
-            <div id="produtopromocao">
-                <div id="produtopromocao2">
-                    <div id="produtopromocao3">
-                        
-                        <h1><img src='#'></img>Pizza em promoção</h1>
-                    </div>    
-                    <div>
-                        <p>itens</p>
-                        <p>itens</p>
-                        <p>itens</p>
-                        <p>itens</p>
-                    </div>
-                    
-                </div>
-            </div>
+        
+        {produtos.map((pizza)=>
+            <Produto item={pizza}/>
+        )}
         </>
     );
 
 }
+export default ProdutosEmPromocao;

@@ -1,6 +1,6 @@
 #cabecalho {
 	background-color:rgba(17, 17, 148, 0.726);
-	height: 80px;
+	height: 90px;
 	padding:5px;
 	
 }
@@ -11,7 +11,6 @@
 {
 	font-size: 45px;
 	color: white;
-	text-decoration: none;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -19,12 +18,12 @@
 	float: left;
 }
 
-#pesquisa{
-	float: left;
-	margin-top: 30px;
-	margin-left: 500px;
+#wrap-left{
+	float: right;
+	position:relative;
+	margin: 30px 0px;
 }
 #lo-se{
 	float: right;
-	margin-top: 30px;
+	margin-left: 50px;
 }

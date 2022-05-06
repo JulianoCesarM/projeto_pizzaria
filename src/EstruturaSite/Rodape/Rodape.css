@@ -1,29 +1,26 @@
-#rodape {
+#rodape {/* fundo de todo rodapé*/
 	background-color:rgba(224, 224, 224, 0.726);
-	height: 500px;
+	height: 0 auto;
 	padding: 5px;
+	
 }
-#rodape-conteudo{
+#rodape-container{
 	margin: 0px 300px;
-	padding: 5px;
+	padding: 20px 0px;
 	
-	
-}
-#endereco{
-	float: left;
-	text-align:left;
-	padding: 5px;
-	border-right: 2px solid rgb(0, 0, 0);
-}
-#RSocial{
-	color: white;
-	float: right;
-	text-align:left;
-	padding: 5px;
 }
 
+
+
+
+#RSociais{
+	margin: 0px 10px;
+}
+#rodape-RSociais{
+	padding: 5px;
+	text-align: center;
+}
 #copy{
 	padding: 10px;
 	text-align:center;
-	background-color:rgba(224, 224, 224, 0.726);
 }
