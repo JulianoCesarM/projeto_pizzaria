@@ -1,4 +1,5 @@
 import './Cabecalho.css'
+import { Link } from 'react-router-dom';
 
 function Cabecalho(prop)
 {
@@ -12,10 +13,9 @@ function Cabecalho(prop)
                     <input type="text"></input>
                     <a href='#'>Pesquisa</a>
                 
-                    <div id='lo-se'>
-                        <a href='#'>Entrar</a>|
-                        <a href='#'>Cadastre-se</a>
-                            
+                    <div id='lo-se' >
+                        <a href='/login'>Entrar</a>|
+                        <a href='/cadastro'>Cadastre-se</a>
                     </div>
                 </div>
             </div>

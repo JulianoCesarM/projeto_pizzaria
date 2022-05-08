@@ -1,4 +1,4 @@
-#itens{
+#nav{
     background-color:rgb(38, 105, 17);
     padding: 10px;
     height: 50px;
@@ -8,3 +8,51 @@
     padding: 0px 5px;
     border-right: 2px solid rgb(41, 41, 41);
 }
+
+/* vinculado ao elemento UL */
+.menu{
+	list-style:none;  /* tira o bullet */
+	float:left;   /* faz o alinhamento ser a esquerda */
+}
+
+/* pega os itens de UL */
+.menu li{
+    
+	position:relative;   /* faz os elementos filhos ficarem posicionados com base no elemento pai */
+	float:left;   /* faz o alinhamento ser a esquerda */
+	background-color:rgb(38, 105, 17);
+}
+
+/* pega os links dentro dos itens */
+.menu li a {
+	color: black;
+	display:block; /* faz o item ocupar todo espaço horizontal disponível */
+}
+
+/* pega os links dentro dos itens quando o mouse passa por cima 
+.menu li a:hover{
+    width: 200px;
+	background-color:rgb(38, 105, 17);
+	color: white;
+}*/
+
+/* pega a lista dentro da lista */
+.menu li ul{
+	position:absolute; /* posição absoluta, para ele "flutuar" */
+	display:none; /* esconde subitens para só aparecer no hover */
+}  
+
+/* pega as listas "filhas" dos itens com o mouse */
+.menu li:hover ul {
+	display:block; /* mostra na tela */
+}
+
+/* pega itens da lista filha */
+.menu li ul li{
+	display:block;
+	width:200px;
+}
+
+/* acerta espaçamento do menu e dos submenus */
+.menu {margin: 0; padding: 0;}
+.menu ul {margin: 0; padding: 0; z-index: 1000;}

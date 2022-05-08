@@ -5,10 +5,12 @@ function ProdutosCardapio(){
     let produtos = getAllProdutos()
     return(
         <>
-            <h1>Cardápio</h1>
-            {produtos.map((produto)=>
-                <Produto item={produto} />
-            )}
+            <div className="conteudo-pag">
+                <h1>Cardápio</h1>
+                {produtos.map((produto)=>
+                    <Produto item={produto} />
+                )}
+            </div>
         </>
     );
 
