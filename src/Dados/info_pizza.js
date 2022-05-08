@@ -3,41 +3,50 @@ let prod_pizza= [
         codigo:1,
         nome:"Pizza calabresa",
         categoria:"Salgada",
-        imagem_pizza:".\Imagem\Produtos\pizza-calabresa.jpg",
-        descricao:"Pizza de calabresa básica",
+        imagem:"/imagens/produtos/pizza-calabresa.jpg",
+        ingrdientes:"Molho de Tomate, Calabresa e Cebola",
         preco:53.60,
     },
     {
         codigo:2,
-        nome:"Pizza ",
-        categoria:"",
-        imagem_pizza:'',
-        preco:""
+        nome:"Pizza chocolate com morango",
+        categoria:"Doce",
+        imagem:"/imagens/produtos/pizza-chocolate-morango.jpg",
+        ingrdientes:"Pizza de calabresa básica",
+        preco:"",
     },
     {
         codigo:3,
-        nome:"",
-        categoria:"",
-        imagem_pizza:"",
-        preco:""
+        nome:"Pizza frango catupiry",
+        categoria:"Salgada",
+        imagem:"/imagens/produtos/pizza-frango-catupiry.png",
+        ingrdientes:"Mussarela, Frango e Catupiry",
+        preco:"",
     },
     {
         codigo:4,
         nome:"",
         categoria:"",
-        imagem_pizza:"",
-        preco:""
+        ingrdientes:"",
+        imagem:"",
+        preco:"",
     },
     {
         codigo:5,
         nome:"",
         categoria:"",
-        imagem_pizza:"",
-        preco:""
+        ingrdientes:"",
+        imagem:"",
+        preco:"",
     },
 ];
 
-
-export function GetPizza(codigo){
-    return prod_pizza.find((pizza) => pizza.codigo === codigo);
+export function getAllProdutos() { /* Vai buscar todas as pizzas*/
+    return prod_pizza;
+}
+export function getPizzaCategoria(categoria) {/*Vai buscar as pizzas por
+                                                categoria (doce, salgada) */
+    return prod_pizza.filter(
+      (pizza) => pizza.categoria === categoria
+    );
 }

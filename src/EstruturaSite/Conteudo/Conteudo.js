@@ -3,7 +3,7 @@ function Conteudo(prop)
 {
     return(
         <div id="conteudo">
-            <h2>{prop.titulo}dg</h2>
+            <h2>{prop.titulo}</h2>
             {prop.children}
         </div>
     );

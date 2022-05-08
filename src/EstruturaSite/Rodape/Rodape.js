@@ -38,11 +38,8 @@ function Rodape(prop)
                         <a id='RSociais' href='https://www.facebook.com/'><img src='../Imagem/'></img> Facebook</a>
                         <a id='RSociais' href='https://www.tiktok.com/en/'><img src='../Imagem/'></img> Tiktok</a>
                     </div>
-                    
-                </div>
-                <div id="copy">{prop.texto}</div>
+                </div><div id="copy">{prop.texto}</div>
             </div>
-            
         </>
     );
 }

@@ -4,7 +4,7 @@ function NavBar(){
     return(
         <div id="itens">
             <a href="#" id='a-navbar'>Cardápio</a>
-            <a href='#' id='a-navbar'>promoção</a>
+            <a href='#' id='a-navbar'>Promoção</a>
         </div>
     );
 }

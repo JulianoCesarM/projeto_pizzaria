@@ -1,18 +1,13 @@
 #rodape {/* fundo de todo rodapé*/
-	background-color:rgba(224, 224, 224, 0.726);
+	background-color:rgb(223, 217, 217);
 	height: 0 auto;
 	padding: 5px;
-	
+	width: 100%;
 }
 #rodape-container{
-	margin: 0px 300px;
+	margin: 0px 200px;
 	padding: 20px 0px;
-	
 }
-
-
-
-
 #RSociais{
 	margin: 0px 10px;
 }

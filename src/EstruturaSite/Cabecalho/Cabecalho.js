@@ -6,7 +6,7 @@ function Cabecalho(prop)
         <div id="cabecalho">
             <div id='conteudo-cab'>
                 <div id='logo'>
-                    <a id="linktopo" href="/"><img src='./Imagem/'></img>{prop.titulo}</a>
+                    <a id="linktopo" href="/">{prop.titulo}</a>
                 </div>  
                 <div id='wrap-left'>
                     <input type="text"></input>

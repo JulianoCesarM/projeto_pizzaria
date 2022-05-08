@@ -1,8 +1,12 @@
 *{
   padding: 0px;
-  margin: 2px;
+  margin: 3px;
   box-sizing: border-box;
 }
 a{
 	text-decoration: none;
+  color: unset;
+}
+body{
+  background-color: rgb(231, 226, 226);
 }

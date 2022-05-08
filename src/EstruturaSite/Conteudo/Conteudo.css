@@ -1,9 +1,5 @@
 #conteudo {
-	width: 100%;
-	float: left;
+	margin: 0% 10%;
 	padding: 1em;
-	line-height: 1.5em;
-	background-color: white;
-	text-align: justify;
-	border: 0px solid red;
+	background-color: rgb(236, 235, 235);
 }

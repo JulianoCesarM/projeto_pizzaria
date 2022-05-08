@@ -3,6 +3,7 @@ import Cabecalho from './EstruturaSite/Cabecalho/Cabecalho';
 import Conteudo from './EstruturaSite/Conteudo/Conteudo';
 import NavBar from './EstruturaSite/NavBar/NavBar';
 import Rodape from './EstruturaSite/Rodape/Rodape';
+import ProdutosCardapio from './Produtos/ProdutosCardapio';
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       <NavBar/>
       
       
-      <Conteudo/>
+      <Conteudo>
+        <ProdutosCardapio/>
+      </Conteudo>
 
       <Rodape texto={"Copyright \u00A9 " +
         (new Date().getFullYear()) + " Minha Pizzaria"} />
