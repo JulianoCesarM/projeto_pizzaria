@@ -44,9 +44,18 @@ let prod_pizza= [
 export function getAllProdutos() { /* Vai buscar todas as pizzas*/
     return prod_pizza;
 }
-export function getPizzaCategoria(categoria) {/*Vai buscar as pizzas por
+export function getProdutoCategoria(categoria) {/*Vai buscar as pizzas por
                                                 categoria (doce, salgada) */
     return prod_pizza.filter(
       (pizza) => pizza.categoria === categoria
     );
 }
+export function getProdutoCod(nome) {
+    return prod_pizza.find((pizza) => pizza.nome === nome);
+}
+/*  
+export function getProdutosEmPromocao() {
+    return produtos.filter(
+      (produto) => produto.promocao === true
+    );
+}*/
