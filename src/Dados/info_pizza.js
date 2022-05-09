@@ -13,7 +13,7 @@ let prod_pizza= [
         categoria:"Doce",
         imagem:"/imagens/produtos/pizza-chocolate-morango.jpg",
         ingrdientes:"Pizza de calabresa básica",
-        preco:"",
+        preco:65.50,
     },
     {
         codigo:3,
@@ -21,7 +21,7 @@ let prod_pizza= [
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-frango-catupiry.png",
         ingrdientes:"Mussarela, Frango e Catupiry",
-        preco:"",
+        preco:55.65,
     },
     {
         codigo:4,
