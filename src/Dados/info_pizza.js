@@ -44,10 +44,11 @@ let prod_pizza= [
 export function getAllProdutos() { /* Vai buscar todas as pizzas*/
     return prod_pizza;
 }
-export function getProdutoCategoria(categoria) {/*Vai buscar as pizzas por
-                                                categoria (doce, salgada) */
+
+/*Vai buscar as pizzas por categoria (doce, salgada) */
+export function getProdutoCategoria(categoria) {
     return prod_pizza.filter(
-      (pizza) => pizza.categoria === categoria
+      (produto) => produto.categoria === categoria
     );
 }
 export function getProdutoCod(nome) {
