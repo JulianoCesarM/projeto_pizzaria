@@ -18,7 +18,7 @@ function Rodape(prop)
                                 <br/>
                                 Endereço: av.isdsdasdnmaui, 1520 - dsahbdahbd
                                 <br/>
-                                Juudiaí - SP - CEP: 15488-455
+                                Jundiaí - SP - CEP: 15488-455
                             </p>
                         </div>
                     </div>

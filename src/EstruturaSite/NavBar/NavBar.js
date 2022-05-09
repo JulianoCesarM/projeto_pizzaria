@@ -7,9 +7,10 @@ function NavBar(){
             <ul className='menu'>
                 <li>
                 <a href="/cardapio" id='a-navbar'><Link to='/cardapio'>Cardápio</Link></a>
-                <ul id='ul2'>
+                <ul>
                     <li><a href='/promocoes'>Promocoes</a></li>
-                    <li></li>
+                    <li><a href='/ProdutosTradicional' >Pizza tradicional</a></li>
+                    <li><a href='/ProdutosDoce' >Pizza doce</a></li>
                 </ul>
                 </li>
             </ul>

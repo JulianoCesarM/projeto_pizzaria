@@ -29,12 +29,11 @@
 	display:block; /* faz o item ocupar todo espaço horizontal disponível */
 }
 
-/* pega os links dentro dos itens quando o mouse passa por cima 
+/* pega os links dentro dos itens quando o mouse passa por cima */
 .menu li a:hover{
-    width: 200px;
-	background-color:rgb(38, 105, 17);
+	background-color:rgb(212, 212, 212);
 	color: white;
-}*/
+}
 
 /* pega a lista dentro da lista */
 .menu li ul{

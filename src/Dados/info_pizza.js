@@ -2,7 +2,7 @@ let prod_pizza= [
     {
         codigo:1,
         nome:"Pizza calabresa",
-        categoria:"Salgada",
+        categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-calabresa.jpg",
         ingrdientes:"Molho de Tomate, Calabresa e Cebola",
         preco:53.60,
@@ -18,7 +18,7 @@ let prod_pizza= [
     {
         codigo:3,
         nome:"Pizza frango catupiry",
-        categoria:"Salgada",
+        categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-frango-catupiry.png",
         ingrdientes:"Mussarela, Frango e Catupiry",
         preco:"",

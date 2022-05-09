@@ -10,7 +10,7 @@ function Cabecalho(prop)
                 </div>  
                 <div id='wrap-left'>
                     <input type="text"></input>
-                    <a href='#'>Pesquisa</a>
+                    <a href='/pesquisa'>Pesquisa</a>
                 
                     <div id='lo-se' >
                         <a href='/login'>Entrar</a>|
