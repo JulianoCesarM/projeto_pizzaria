@@ -1,0 +1,14 @@
+#sa{
+    margin: 100px 20%;
+    padding: 200px;
+    background-color: white;
+}
+#dsa{
+    margin: 0px 20%;
+    padding:50px 50px;
+    background-color: rgb(191, 191, 255);
+}
+#gbf{
+    background-color: white;
+    float: right;
+}
