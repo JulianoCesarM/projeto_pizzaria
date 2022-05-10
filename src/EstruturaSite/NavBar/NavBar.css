@@ -51,8 +51,5 @@
 .menu li ul li{
 	display:block;
 	width:200px;
+	padding: 3px;
 }
-
-/* acerta espaçamento do menu e dos submenus */
-.menu {margin: 0; padding: 0;}
-.menu ul {margin: 0; padding: 0; z-index: 1000;}
