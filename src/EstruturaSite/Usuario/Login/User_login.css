@@ -1,14 +1,28 @@
 #sa{
-    margin: 100px 20%;
-    padding: 200px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
 }
 #dsa{
-    margin: 0px 20%;
-    padding:50px 50px;
-    background-color: rgb(191, 191, 255);
+    margin: 5% 0%;
+    padding:50px 70px;
+    background-color: rgb(208, 208, 250);
+    border-radius: 7px;
+}
+#div-itens-login{
+    padding: 5px 0px;
 }
 #gbf{
     background-color: white;
-    float: right;
+    padding: 3px 7px;
+    border-radius: 7px;
+}
+#redef-senha{
+    margin-right: 50px;
+}
+#redef-senha:hover{
+    color: blue;
+}
+#gbf:hover{
+    background-color: rgb(233, 233, 233);
 }

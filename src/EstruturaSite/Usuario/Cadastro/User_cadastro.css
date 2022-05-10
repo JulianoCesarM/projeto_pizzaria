@@ -1,5 +1,14 @@
 #sa{
-    margin: 100px 20%;
-    padding: 100px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+}
+#cadastro-itens{
+    margin: 7.5% 0%;
+    padding:50px 70px;
+    background-color: rgb(208, 208, 250);
+    border-radius: 7px;
+}
+#div-itens-cadastro{
+    padding: 7px 0px;
 }

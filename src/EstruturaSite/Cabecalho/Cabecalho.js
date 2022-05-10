@@ -12,11 +12,11 @@ function Cabecalho(prop)
                     <input type="text"></input>
                     <a href='/pesquisa'>Pesquisa</a>
                 
-                    <div id='lo-se' >
+                   
+                </div> <div id='lo-se' >
                         <a href='/login'>Entrar</a>|
                         <a href='/cadastro'>Cadastre-se</a>
                     </div>
-                </div>
             </div>
         </div>
     );
