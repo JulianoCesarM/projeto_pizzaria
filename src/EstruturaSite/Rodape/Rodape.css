@@ -4,9 +4,16 @@
 	padding: 5px;
 	width: 100%;
 }
-#rodape-container{
-	margin: 0px 200px;
+#rodape-container{/* adicionar o display: flex; faz com que os componentes de dentro se alinhem ao lado do outro*/
 	padding: 20px 0px;
+	display: flex;
+	justify-content: center;
+}
+#rodape-endereco-contato{
+	padding: 0px 15px;
+}
+#rodape-contatos{
+	padding: 0px 15px;
 }
 #RSociais{
 	margin: 0px 10px;
