@@ -1,11 +1,11 @@
 #cabecalho {
 	background-color: white;
-	height: 90px;
 	padding:5px;
-	
 }
 #conteudo-cab{
 	margin: 0px 200px;
+	display: flex;
+	justify-content: space-between;
 }
 #linktopo
 {
@@ -14,16 +14,12 @@
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#logo{
-	float: left;
-}
-
 #wrap-left{
-	float: right;
+	display: flex;
 	position:relative;
 	margin: 30px 0px;
 }
 #lo-se{
-	float: right;
+	
 	margin-left: 50px;
 }
