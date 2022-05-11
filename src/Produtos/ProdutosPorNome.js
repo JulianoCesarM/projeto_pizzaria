@@ -1,4 +1,5 @@
 import { getProdutoNome } from "../Dados/info_pizza";
+import Produto from "./Produto";
 
 
 function ProdutosPorNome(prop){

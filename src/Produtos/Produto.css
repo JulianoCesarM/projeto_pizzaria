@@ -5,10 +5,11 @@
     vertical-align: top;
 }
 #img-pizza-render{
+    border-radius: 150px;
     width: 200px ;
     height: 200px ;
     padding: 4px;
-    border: 2px solid rgb(255, 191, 191);
+    border: 1px solid rgb(255, 191, 191);
 }
 
 .conteudo-pag{
@@ -18,4 +19,13 @@
 #titulo-body{
     border-bottom: 2px solid rgb(102, 102, 102);
     margin-bottom: 40px;
+}
+#sdad{
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#dsad{
+    display: flex;
+    justify-content: space-between;
 }
