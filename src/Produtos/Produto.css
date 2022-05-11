@@ -13,10 +13,14 @@
     width: 200px ;
     height: 200px ;
     padding: 4px;
-    border: 2px solid;
+    border: 2px solid rgb(255, 191, 191);
 }
 
 .conteudo-pag{
     margin: 50px 10%;
 }
 
+#titulo-body{
+    border-bottom: 2px solid rgb(102, 102, 102);
+    margin-bottom: 40px;
+}

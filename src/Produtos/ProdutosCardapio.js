@@ -6,7 +6,7 @@ function ProdutosCardapio(){
     return(
         <>
             <div className="conteudo-pag">
-                <h1>Cardápio</h1>
+                <h1 id="titulo-body">Cardápio de Pizzas</h1>
                 {produtos.map((produto)=>
                     <Produto item={produto} />
                 )}

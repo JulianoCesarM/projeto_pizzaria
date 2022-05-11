@@ -8,7 +8,7 @@ function Rodape(prop)
             <div id="rodape">
                 <div id="rodape-container">
                     <div id='rodape-endereco-contato'>
-                        <h1>Abertura</h1>
+                        <h2>Funcionamento</h2>
                         <p>Terça a Sexta das 19:00 as 24:00<br/>Sabado e Domingo das 17:00 as 24:00</p>
                         <div>
                             <br/>

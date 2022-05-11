@@ -1,7 +1,7 @@
 let prod_pizza= [
     {
         codigo:1,
-        nome:"Pizza calabresa",
+        nome:"calabresa",
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-calabresa.jpg",
         ingrdientes:"Molho de Tomate, Calabresa e Cebola",
@@ -9,7 +9,7 @@ let prod_pizza= [
     },
     {
         codigo:2,
-        nome:"Pizza chocolate com morango",
+        nome:"chocolate com morango",
         categoria:"Doce",
         imagem:"/imagens/produtos/pizza-chocolate-morango.jpg",
         ingrdientes:"Pizza de calabresa básica",
@@ -17,7 +17,7 @@ let prod_pizza= [
     },
     {
         codigo:3,
-        nome:"Pizza frango catupiry",
+        nome:"frango catupiry",
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-frango-catupiry.png",
         ingrdientes:"Mussarela, Frango e Catupiry",
