@@ -1,7 +1,7 @@
 let prod_pizza= [
     {
         codigo:1,
-        nome:"calabresa",
+        nome:"Calabresa",
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-calabresa.jpg",
         ingrdientes:"Molho de Tomate, Calabresa e Cebola",
@@ -9,7 +9,7 @@ let prod_pizza= [
     },
     {
         codigo:2,
-        nome:"chocolate com morango",
+        nome:"Chocolate com morango",
         categoria:"Doce",
         imagem:"/imagens/produtos/pizza-chocolate-morango.jpg",
         ingrdientes:"Pizza de calabresa básica",
@@ -17,7 +17,7 @@ let prod_pizza= [
     },
     {
         codigo:3,
-        nome:"frango catupiry",
+        nome:"Frango catupiry",
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-frango-catupiry.png",
         ingrdientes:"Mussarela, Frango e Catupiry",
@@ -51,7 +51,7 @@ export function getProdutoCategoria(categoria) {
       (produto) => produto.categoria === categoria
     );
 }
-export function getProdutoCod(nome) {
+export function getProdutoNome(nome) {
     return prod_pizza.find((pizza) => pizza.nome === nome);
 }
 /*  
