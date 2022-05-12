@@ -9,7 +9,6 @@ function ProdutosPorNome(prop){
             {produtos.map((produto)=>
                 <Produto item={produto} />
             )}
-
         </div>
     );
 }

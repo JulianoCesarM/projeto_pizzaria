@@ -5,6 +5,7 @@ let prod_pizza= [
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-calabresa.jpg",
         ingrdientes:"Molho de Tomate, Calabresa e Cebola",
+        promocao: true,
         preco:53.60,
     },
     {
@@ -13,6 +14,7 @@ let prod_pizza= [
         categoria:"Doce",
         imagem:"/imagens/produtos/pizza-chocolate-morango.jpg",
         ingrdientes:"Pizza de calabresa básica",
+        promocao: true,
         preco:65.50,
     },
     {
@@ -21,6 +23,7 @@ let prod_pizza= [
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-frango-catupiry.png",
         ingrdientes:"Mussarela, Frango e Catupiry",
+        promocao: false,
         preco:55.65,
     },
     {
@@ -29,6 +32,7 @@ let prod_pizza= [
         categoria:"",
         ingrdientes:"",
         imagem:"",
+        promocao: false,
         preco:"",
     },
     {
@@ -37,6 +41,7 @@ let prod_pizza= [
         categoria:"",
         ingrdientes:"",
         imagem:"",
+        promocao: false,
         preco:"",
     },
 ];
@@ -54,9 +59,9 @@ export function getProdutoCategoria(categoria) {
 export function getProdutoNome(nome) {
     return prod_pizza.find((pizza) => pizza.nome === nome);
 }
-/*  
+
 export function getProdutosEmPromocao() {
-    return produtos.filter(
-      (produto) => produto.promocao === true
+    return prod_pizza.filter(
+      (pizza) => pizza.promocao === true
     );
-}*/
+}
