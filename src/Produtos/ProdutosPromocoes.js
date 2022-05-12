@@ -1,22 +1,22 @@
 import { getProdutosEmPromocao } from '../Dados/info_pizza';
 import Produto from './Produto';
-import './Produto.css'
+import './ProdutosPromocoes.css'
 
 function ProdutosPromocoes(){
     let produtos = getProdutosEmPromocao();
     return(
         <>
-            <div>
-                <div>
+            <div id='conteudo-pag-promo'>
+                <div id=''>
                     <h3 id="titulo-body">{"Produtos em promocoes"}</h3>
-                    <div>
-                        <a href='anterior'>4</a>
-                        <div>
+                    <div id='container-pag-promo'>
+                        <a href='anterior'>{"<"}</a>
+                        <div id='container-pag-promo-conteudo'>
                             {produtos.map((produto)=>
                                 <Produto item={produto} />
                             )}
                         </div>
-                        <a href='proximo'>4</a>
+                        <a href='proximo'>{">"}</a>
                     </div>
                 </div>
             </div>

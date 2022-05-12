@@ -1,0 +1,14 @@
+#conteudo-pag-promo{
+    margin: 40px 10%;
+    
+}
+#container-pag-promo{
+    display: flex;
+    flex-direction: row;
+}
+#anterior, #proximo{
+    height: 100px;
+}
+#container-pag-promo-conteudo{
+    background-color: white;
+}
