@@ -9,7 +9,7 @@ function Cabecalho(prop)
                     <a id="linktopo" href="/">{prop.titulo}</a>
                 </div>  
                 <div id='wrap-left'>
-                    <input type="text"></input>
+                    <input type="text" id='cx-texto-pesquisa'></input>
                     <a href='/pesquisa'>Pesquisa</a>
                 
                    
