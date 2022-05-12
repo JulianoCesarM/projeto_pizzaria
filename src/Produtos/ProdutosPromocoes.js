@@ -18,7 +18,6 @@ function ProdutosPromocoes(){
                         </div>
                         <a href='proximo'>4</a>
                     </div>
-
                 </div>
             </div>
         </>
