@@ -3,6 +3,7 @@ import Produto from "./Produto";
 
 function ProdutosPorNome(prop){
     let produtos = getProdutoNome(prop.nome);
+    
     return(
         <div className="conteudo-pag">
             <h1 id="titulo-body">{"Pizza de "+prop.nome}</h1>
