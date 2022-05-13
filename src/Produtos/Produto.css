@@ -1,3 +1,4 @@
+/*Produto*/
 .produto
 {
     padding: 20px;
@@ -6,19 +7,10 @@
 }
 #img-pizza-render{
     border-radius: 150px;
-    width: 200px ;
-    height: 200px ;
-    padding: 4px;
+    width: 150px ;
+    height: 150px ;
+    padding: 2px;
     border: 1px solid rgb(255, 191, 191);
-}
-
-.conteudo-pag{
-    margin: 50px 10%;
-}
-
-#titulo-body{
-    border-bottom: 2px solid rgb(102, 102, 102);
-    margin-bottom: 40px;
 }
 #sdad{
     padding: 3px;
@@ -28,4 +20,12 @@
 #dsad{
     display: flex;
     justify-content: space-between;
+}
+/*ProdutosPor Nome/categoria/cardapio */
+.conteudo-pag{
+    margin: 50px 10%;
+}
+#titulo-body{
+    border-bottom: 2px solid rgb(102, 102, 102);
+    margin-bottom: 10px;
 }

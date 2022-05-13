@@ -13,10 +13,7 @@ function NavBar(){
                 </ul>
                 </li>
             </ul>
-            
         </div>
     );
 }
-
-
 export default NavBar;

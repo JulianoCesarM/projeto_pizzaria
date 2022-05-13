@@ -13,6 +13,5 @@ function ProdutosCardapio(){
             </div>
         </>
     );
-
 }
 export default ProdutosCardapio;

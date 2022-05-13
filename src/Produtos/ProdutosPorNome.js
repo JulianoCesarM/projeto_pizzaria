@@ -12,5 +12,4 @@ function ProdutosPorNome(prop){
         </div>
     );
 }
-
 export default ProdutosPorNome;

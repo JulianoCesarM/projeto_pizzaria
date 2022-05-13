@@ -10,9 +10,7 @@ function Cabecalho(prop)
                 </div>  
                 <div id='wrap-left'>
                     <input type="text" id='cx-texto-pesquisa'/>
-                    <a href='/pesquisa'></a>
-                
-                   
+                    <a href='/pesquisa'>Pesquisar</a>
                 </div> <div id='lo-se' >
                         <a href='/login'>Entrar</a>|
                         <a href='/cadastro'>Cadastre-se</a>
@@ -21,5 +19,4 @@ function Cabecalho(prop)
         </div>
     );
 }
-
 export default Cabecalho;

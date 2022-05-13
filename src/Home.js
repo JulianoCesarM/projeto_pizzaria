@@ -1,8 +1,6 @@
 import './Home.css'
 import ProdutosPromocoes from './Produtos/ProdutosPromocoes';
 
-
-
 function Home(){
     return(
         <>
