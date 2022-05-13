@@ -19,7 +19,7 @@ let prod_pizza= [
     },
     {
         codigo:3,
-        nome:"Frango catupiry",
+        nome:"Frango com catupiry",
         categoria:"Tradicional",
         imagem:"/imagens/produtos/pizza-frango-catupiry.png",
         ingrdientes:"Mussarela, Frango e Catupiry",
@@ -57,7 +57,7 @@ export function getProdutoCategoria(categoria) {
     );
 }
 export function getProdutoNome(nome) {
-    return prod_pizza.find((pizza) => pizza.nome === nome);
+    return prod_pizza.filter((pizza) => pizza.nome === nome);
 }
 
 export function getProdutosEmPromocao() {

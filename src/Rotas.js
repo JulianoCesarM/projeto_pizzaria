@@ -15,7 +15,7 @@ function Rotas()
         <BrowserRouter>
             <NavBar/>
             <Routes>
-                <Route path="/" element={<Home/>} />
+                <Route path="/" element={<Home />} />
                 <Route path="/cardapio" element={<ProdutosCardapio/>} />
                 <Route path="/ProdutosTradicional" element={<ProdutosPorCategoria categoria="Tradicional"/>} />
                 <Route path="/ProdutosDoce" element={<ProdutosPorCategoria categoria="Doce"/>} />

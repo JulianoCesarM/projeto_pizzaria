@@ -1,9 +1,15 @@
 /*Produto*/
 .produto
 {
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     vertical-align: top;
+    margin: 0px 5px;
+    border: 2px solid ;
+    max-width: 270px;
+    max-height: 270px;
+    min-width: 270px;
+    min-height: 270px;
 }
 #img-pizza-render{
     border-radius: 150px;
