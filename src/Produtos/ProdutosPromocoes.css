@@ -5,6 +5,7 @@
 #container-pag-promo{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #anterior, #proximo{
     height: 100px;
