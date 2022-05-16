@@ -16,8 +16,8 @@ function Home(){
                 <Conteudo>
                 <div id='div-home-conteudo'>
                     {produtos.map((produto)=>
-                                <Produto item={produto} />
-                            )}
+                        <Produto item={produto} />
+                    )}
                 </div>
                 </Conteudo>
             )
