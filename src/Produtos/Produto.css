@@ -1,10 +1,10 @@
 /*Produto*/
 .produto
 {
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
     vertical-align: top;
-    margin: 0px 5px;
+    margin: 5px 5px;
     border: 2px solid ;
     max-width: 270px;
     max-height: 270px;

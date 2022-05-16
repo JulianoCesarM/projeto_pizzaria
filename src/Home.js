@@ -3,7 +3,6 @@ import { useState } from 'react';
 import './Home.css'
 import ProdutosPromocoes from './Produtos/ProdutosPromocoes';
 import Produto from './Produtos/Produto';
-import Conteudo from './EstruturaSite/Conteudo/Conteudo';
 
 
 function Home(){
@@ -11,34 +10,31 @@ function Home(){
     let produtos = getProdutoNome(busca);
     console.log(produtos);
     function Mostrar(){
-        if (busca !== "" && busca !== null) { /* falta fazer o tratamento de erro e a busca por letra digitado*/ 
+        if (busca !== "" && busca !== null && busca !== " ") { /* falta fazer o tratamento de erro e a busca por letra digitado*/ 
             return(
-                <Conteudo>
-                    <div id='div-home-conteudo'>
-                        {produtos.map((produto)=>
-                            <Produto item={produto} />
-                        )}
-                    </div>
-                </Conteudo>
+                <div id='div-home-res-conteudo'>
+                    {produtos.map((produto)=>
+                        <Produto item={produto} />
+                    )}
+                </div>
+
             )
-            
         }else{
             return(
-                <div id='div-home-conteudo-erro'>
-                    <h3>Produto não encontrado</h3>
+                <div id='div-home-conteudo-pesq-erro'>
+                    <h3><br/>Produto não encontrado ou verifique sua ortografia.</h3>
                 </div>
             )
         }
-        
     }
     return(
         <>
             <ProdutosPromocoes/>
-            <div >
+            <div id='div-home-conteudo'>
                 <div id='div-home'>
                     <h2>Pesquisar: </h2>
                     <input type="search" id='cx-texto-pesquisa' placeholder=' ...' 
-                     onChange={(e) => setBusca(e.target.value)} value={busca}/>
+                     onChange={(e) => setBusca(e.target.value)} value={busca}/><br/>
                 </div>
                 <Mostrar/>
             </div>

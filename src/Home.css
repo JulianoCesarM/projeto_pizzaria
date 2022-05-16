@@ -1,8 +1,7 @@
-#div-home {
+#div-home-conteudo {
 	margin:  50px 10% 10px  10%;
 	padding: 1em;
 	background-color: rgb(236, 235, 235);
-	display: flex;
 }
 
 #cx-texto-pesquisa{
@@ -10,19 +9,31 @@
 	border: none;
 	border-radius: 3px;
 }
+#div-home{
+	display: flex;
+}
+#div-home-res-conteudo{
+	padding: 15px;
+}
 
-/* conteudo*/
+
+
+
+
+/* conteudo
 #div-home-conteudo{
 	background-color: rgb(236, 235, 235);
 	margin-left:10% ;
 	margin-right:10% ;
 	margin-bottom: 7%;
-	display: flex;
+	
 }
 #div-home-conteudo-erro{
 	background-color: rgb(236, 235, 235);
 	margin-left:10% ;
 	margin-right:10% ;
-	margin-bottom: 7%;
+	margin-bottom: 10px;
 	display: flex;
-}
+	
+	padding: 15px;
+}*/
