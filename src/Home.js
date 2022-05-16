@@ -3,19 +3,25 @@ import { useState } from 'react';
 import './Home.css'
 import ProdutosPromocoes from './Produtos/ProdutosPromocoes';
 import Produto from './Produtos/Produto';
+import Conteudo from './EstruturaSite/Conteudo/Conteudo';
 
 
 function Home(){
-    const [busca, setBusca] = useState([]);
+    const [busca, setBusca] = useState();
     let produtos = getProdutoNome(busca);
     console.log(produtos);
     function Mostrar(){
         if (busca !== " ") {
             return(
+                <Conteudo>
                 <div id='div-home-conteudo'>
-                    <Produto item={produtos} />
+                    {produtos.map((produto)=>
+                                <Produto item={produto} />
+                            )}
                 </div>
+                </Conteudo>
             )
+            
         }else{
             return(
                 <div id='div-home-conteudo'>

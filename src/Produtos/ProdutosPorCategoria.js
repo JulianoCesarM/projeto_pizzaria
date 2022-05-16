@@ -8,7 +8,7 @@ function ProdutosPorCategoria(prop){
         <div className="conteudo-pag">
             <h1 id="titulo-body">{"Cardápio de Pizza "+prop.categoria}</h1>
             {produtos.map((produto)=>
-                    <Produto item={produto} />
+                <Produto item={produto} />
             )}
         </div>
     );
