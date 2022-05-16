@@ -11,21 +11,21 @@ function Home(){
     let produtos = getProdutoNome(busca);
     console.log(produtos);
     function Mostrar(){
-        if (busca !== " ") {
+        if (busca !== "" && busca !== null) { /* falta fazer o tratamento de erro e a busca por letra digitado*/ 
             return(
                 <Conteudo>
-                <div id='div-home-conteudo'>
-                    {produtos.map((produto)=>
-                        <Produto item={produto} />
-                    )}
-                </div>
+                    <div id='div-home-conteudo'>
+                        {produtos.map((produto)=>
+                            <Produto item={produto} />
+                        )}
+                    </div>
                 </Conteudo>
             )
             
         }else{
             return(
-                <div id='div-home-conteudo'>
-                    <h3>Digite um valor válido</h3>
+                <div id='div-home-conteudo-erro'>
+                    <h3>Produto não encontrado</h3>
                 </div>
             )
         }
