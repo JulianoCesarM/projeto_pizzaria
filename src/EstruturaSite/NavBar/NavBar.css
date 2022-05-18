@@ -21,6 +21,7 @@
 	position:relative;   /* faz os elementos filhos ficarem posicionados com base no elemento pai */
 	float:left;   /* faz o alinhamento ser a esquerda */
 	background-color:white;
+	
 }
 
 /* pega os links dentro dos itens */

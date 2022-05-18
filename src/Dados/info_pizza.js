@@ -55,7 +55,7 @@ let prod_pizza= [
     },
     {
         codigo:5,
-        nome:"Calabresa",
+        nome:"a",
         categoria:"",
         ingrdientes:"",
         imagem:"",
@@ -68,13 +68,14 @@ export function getAllProdutos() { /* Vai buscar todas as pizzas*/
     return prod_pizza;
 }
 
-/*Vai buscar as pizzas por categoria (doce, salgada) */
+/*Vai buscar as pizzas por categoria (doce, tradicional) */
 export function getProdutoCategoria(categoria) {
     return prod_pizza.filter(
       (produto) => produto.categoria === categoria
     );
 }
 export function getProdutoNome(nome) {
+    console.log(nome)
     return prod_pizza.filter((pizza) => pizza.nome === nome);
 }
 
