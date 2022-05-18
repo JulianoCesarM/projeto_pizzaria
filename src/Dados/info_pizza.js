@@ -76,7 +76,7 @@ export function getProdutoCategoria(categoria) {
 }
 export function getProdutoNome(nome) {
     console.log(nome)
-    return prod_pizza.filter((pizza) => pizza.nome === nome);
+    return prod_pizza.filter((pizza) => pizza.nome.indexOf(nome) < -1);
 }
 
 export function getProdutosEmPromocao() {
