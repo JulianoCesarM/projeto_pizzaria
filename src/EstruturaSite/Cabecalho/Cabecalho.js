@@ -1,7 +1,8 @@
 import './Cabecalho.css'
+
 function Cabecalho(prop)
 {
-
+    
     return(
         <div id="cabecalho">
             <div id='conteudo-cab'>
@@ -9,8 +10,10 @@ function Cabecalho(prop)
                     <a id="linktopo" href="/">{prop.titulo}</a>
                 </div>
                 <div id='lo-se' >
+                    <a href='/carrinho'>Carrinho</a>|
                     <a href='/login'>Entrar</a>|
                     <a href='/cadastro'>Cadastre-se</a>
+                    
                 </div>
             </div>
         </div>

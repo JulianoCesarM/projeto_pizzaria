@@ -35,3 +35,18 @@
     border-bottom: 2px solid rgb(102, 102, 102);
     margin-bottom: 10px;
 }
+#conteudo-pag-promo{
+    margin: 10px 0%;
+}
+#container-pag-promo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#anterior, #proximo{
+    height: 100px;
+}
+#container-pag-promo-conteudo{
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 20px;
+}

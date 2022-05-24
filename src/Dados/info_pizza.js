@@ -64,11 +64,10 @@ let prod_pizza= [
     },
 ];
 
-export function getAllProdutos() { /* Vai buscar todas as pizzas*/
+export function getAllProdutos() {  
     return prod_pizza;
 }
 
-/*Vai buscar as pizzas por categoria (doce, tradicional) */
 export function getProdutoCategoria(categoria) {
     return prod_pizza.filter(
       (produto) => produto.categoria === categoria
@@ -76,7 +75,7 @@ export function getProdutoCategoria(categoria) {
 }
 export function getProdutoNome(nome) {
     console.log(nome)
-    return prod_pizza.filter((pizza) => pizza.nome.indexOf(nome) < -1);
+    return prod_pizza.filter((pizza) => pizza.nome.toLowerCase().indexOf(nome) > -1);
 }
 
 export function getProdutosEmPromocao() {

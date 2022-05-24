@@ -1,23 +1,30 @@
-import { getProdutoNome } from './Dados/info_pizza';
-import { useState } from 'react';
+import { useEffect, useState } from "react";
+import { api } from "./Services/API";
 import './Home.css'
 import ProdutosPromocoes from './Produtos/ProdutosPromocoes';
 import Produto from './Produtos/Produto';
+import Conteudo from './EstruturaSite/Conteudo/Conteudo';
 
 
 function Home(){
+    const [produtos, setProdutos] = useState([])
     const [busca, setBusca] = useState();
-    let produtos = getProdutoNome(busca);
-    console.log(produtos);
+
+    useEffect(()=>{
+        console.log(busca);
+        api.get('/products/name').then(function ({data}) {
+            setProdutos(data)
+        })
+    },[])
+    
     function Mostrar(){
-        if (busca !== "" && busca !== null && busca !== " ") { /* falta fazer o tratamento de erro e a busca por letra digitado*/ 
+        if (busca !== "" && busca !== null && busca !== " ") { 
             return(
                 <div id='div-home-res-conteudo'>
                     {produtos.map((produto)=>
                         <Produto item={produto} />
                     )}
                 </div>
-
             )
         }else{
             return(
@@ -29,15 +36,17 @@ function Home(){
     }
     return(
         <>
+        <Conteudo>
             <ProdutosPromocoes/>
             <div id='div-home-conteudo'>
                 <div id='div-home'>
-                    <h2>Pesquisar: </h2>
+                    <label  htmlFor="cx-texto-pesquisa">Pesquisar: </label>
                     <input type="search" id='cx-texto-pesquisa' placeholder=' ...' 
                      onChange={(e) => setBusca(e.target.value)} value={busca}/><br/>
                 </div>
                 <Mostrar/>
             </div>
+        </Conteudo>
         </>
     );
 }
